@@ -79,6 +79,7 @@
      <None Include="Assets\Faye_project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Faye_project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Faye_project\Standard Assets\Shader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Faye_project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\Faye_project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\Faye_project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
@@ -106,6 +107,7 @@
      <None Include="Assets\map\AxeyWorks Low Poly\Baker House\Readme.txt" />
      <None Include="Assets\Faye_project\Standard Assets\Shader\Unitychan_chara_fuku_ds.shader" />
      <None Include="Assets\Faye_project\README.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Faye_project\Standard Assets\Shader\Unitychan_chara_eye_blend.shader" />
      <None Include="Assets\Faye_project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
      <None Include="Assets\Faye_project\Standard Assets\Shader\Unitychan_chara_hair_ds.shader" />
@@ -119,8 +121,10 @@
      <None Include="Assets\Faye_project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
      <None Include="Assets\Faye_project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Faye_project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Faye_project\Standard Assets\Shader\Unitychan_chara_hair.shader" />
      <None Include="Assets\Faye_project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
      <None Include="Assets\Faye_project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\Faye_project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
      <None Include="Assets\Faye_project\Standard Assets\Shader\Unitychan_chara_eyelash_blend.shader" />

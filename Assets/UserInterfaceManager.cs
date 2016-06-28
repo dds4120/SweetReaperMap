@@ -16,7 +16,8 @@ public class UserInterfaceManager : MonoBehaviour
 //		skillUI = GameObject.Find( "SkillUI" );
 //		status = GameObject.Find( "Status" );
 		enterDungeon = GameObject.Find( "EnterDungeon" );
-		Debug.Log (enterDungeon);
+	
+		ControlEnterDungeon (false);
 	}
 	public bool OnEnterDungeon
 	{
@@ -25,6 +26,7 @@ public class UserInterfaceManager : MonoBehaviour
 			return enterDungeon.activeInHierarchy;
 		}
 	}
+
 
 	// Update is called once per frame
 //	void Update( )
@@ -52,5 +54,21 @@ public class UserInterfaceManager : MonoBehaviour
 	public void ControlEnterDungeon(bool state)
 	{
 		enterDungeon.SetActive( state );
+
 	}
+	public void CloseScreen(string name)
+	{
+		switch (name)
+		 {
+		case "EnterDungeon":
+			ControlEnterDungeon (false);
+			break;
+		
+		}
+
+
+
+	}
+
+
 }

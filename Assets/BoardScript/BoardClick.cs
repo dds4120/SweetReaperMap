@@ -14,7 +14,7 @@ public class BoardClick : MonoBehaviour {
 	{
 		boardQuest = transform.Find ("BoardCanvas").Find ("BoardClickEvent").GetComponent<Image>();
 		ui = GameObject.FindWithTag ("MainUI").GetComponent<UserInterfaceManager> ();
-		ui.ControlEnterDungeon (false);
+
 		ControlBoardImage (false);
 	}
 
@@ -28,6 +28,8 @@ public class BoardClick : MonoBehaviour {
 		ControlBoardImage (true);	
 
 	}
+
+
 	void OnMouseExit()
 	{
 		ControlBoardImage (false);
@@ -39,7 +41,7 @@ public class BoardClick : MonoBehaviour {
 		{
 			ControlBoardImage (false);
 			ui.ControlEnterDungeon (true);
-			Debug.Log ("DungeonIn");
+
 			
 		} 
 
