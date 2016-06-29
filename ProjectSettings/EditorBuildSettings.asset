@@ -8,4 +8,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/CampField.unity
   - enabled: 1
-    path: Assets/Scene/FayeTest.unity
+    path: Assets/Scene/Forest.unity

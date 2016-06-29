@@ -47,6 +47,8 @@
   <ItemGroup>
      <Compile Include="Assets\BoardScript\BoardClick.cs" />
      <Compile Include="Assets\BoardScript\SelectDungeon.cs" />
+     <Compile Include="Assets\DunGeonLerp.cs" />
+     <Compile Include="Assets\DungeonInCheck.cs" />
      <Compile Include="Assets\Faye_project\Scripts\AnimatorController.cs" />
      <Compile Include="Assets\Faye_project\Scripts\Swapper.cs" />
      <Compile Include="Assets\Faye_project\Scripts\ThirdPersonCamera.cs" />
@@ -65,7 +67,6 @@
      <Compile Include="Assets\Faye_project\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
      <Compile Include="Assets\Faye_project\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
      <Compile Include="Assets\Faye_project\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
-     <Compile Include="Assets\InsertForest.cs" />
      <Compile Include="Assets\MonsterAI.cs" />
      <Compile Include="Assets\UserInterfaceManager.cs" />
      <None Include="Assets\Faye_project\Standard Assets\Shader\Unitychan_chara_eye.shader" />

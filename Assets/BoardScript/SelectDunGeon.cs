@@ -2,40 +2,25 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-public class SelectDungeon : MonoBehaviour {
 
-	public Image dungeonForest;
-	public InsertForest DungeonInsert;
-	// Use this for initialization
-	void Start ()
+public class SelectDungeon : MonoBehaviour{
+
+	public Image dungeonCheck;
+
+	void start()
 	{
-		dungeonForest = transform.Find("Forest").GetComponent<Image> ();		
+		dungeonCheck = transform.Find ("Forest").Find ("ForestCheck").GetComponent<Image> ();
 
 	}
 
-//	void OnMouseEnter()
-//	{
-//		Debug.Log ("Ente");
-//
-//	}
-//	void OnMouseExit()
-//	{
-//		Debug.Log ("exit");
-//	}
-//	void OnMouseDown()
-//	{
-//		Debug.Log ("inDun");
-//		//in dungeon
-//	}
-//
 
 	public void FirstAreaDungeonSelect(string name)
 	{
 		switch (name) 
 		{
-		case "Forest":
-			Debug.Log ("inDun");
-			SceneManager.LoadScene ("FayeTest");
+			case "Forest":
+			
+			SceneManager.LoadScene ("Forest");
 			break;
 		}
 
